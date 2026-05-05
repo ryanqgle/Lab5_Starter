@@ -16,4 +16,5 @@ Q: Would you use a unit test to test the “max message length” feature of a m
 A: Yes, I would still unit test the max message length feature because there may be varying formats/languages. Some inputs may include characters that consume multiple or an incorrect amount of characters in the message. If the message contains too much data, which is what I'm guessing the threshold is to prevent, it will slow down the system. Moreover, we must also test edge cases, like: does it count 80 characters correctly, does it validate 79 characters, or 81, or empty. 
 
 Explore: https://ryanqgle.github.io/Lab5_Starter/explore.html
+
 Expose: https://ryanqgle.github.io/Lab5_Starter/expose.html
